@@ -5,6 +5,14 @@
     Sintaxis:  selector { propiedad: valor; }
     .nombre  → selector de clase (se puede repetir)
     #nombre  → selector de ID (único, no se repite)
+
+    GOOGLE FONTS:
+    Cada página usa una fuente distinta cargada desde fonts.googleapis.com:
+      - index.html   → Roboto     (sans-serif, limpia y legible)
+      - pagina1.html → Montserrat (sans-serif, geométrica y moderna)
+      - pagina2.html → Lora       (serif, elegante con remates curvos)
+      - pagina3.html → Oswald     (sans-serif, condensada y fuerte)
+    La fuente se enlaza con <link> en el <head> y se aplica con font-family.
 */
 
 
